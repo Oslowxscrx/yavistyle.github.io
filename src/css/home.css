@@ -1,0 +1,136 @@
+body {
+    background-color: aquamarine;
+}
+
+
+.carrusel_cont{
+   
+    position: relative;
+}
+.contt{
+    top: 6px;
+    width: 900px;
+    height: 1000px;
+    left: 10%;
+    position: fixed;
+    display: grid;
+    background-color: rgba(48, 48, 48, 0.836);
+    border-radius: 15px;
+    grid-template-columns: 600px 280px 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    
+}
+.datos img { 
+    width: 100px;
+    
+}
+.datos_cont{
+    text-align: left;
+}
+.carusser_anterior , 
+.carusser_siguiente{
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 200px;
+    border: none;
+    border-radius:  7px;
+    line-height: 30px;
+    text-align: center;
+    background-color: none;
+    color: white;
+    background-color: rgba(5, 5, 5, 0.247);
+    -webkit-border-radius:  7px;
+    -moz-border-radius:  7px;
+    -ms-border-radius:  7px;
+    -o-border-radius:  7px;
+}
+.carusser_anterior{
+    left: -80px;
+    
+
+}
+.carusser_anterior img , .carusser_siguiente img{
+    width: 60px;
+    text-align: left;
+    display: block;
+    
+    
+    
+}
+.carusser_siguiente{
+    right:  -80px;
+}
+.ruleta{
+    
+   margin: 10%;
+}
+.carrusel_element{
+    padding: 2px;
+   
+}
+.carrusel_element img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+   
+}
+.explore_text{
+    color: white;
+    text-align: center;
+ 
+   margin: 0;
+}
+.cont{
+    
+    
+    display: grid;
+    grid-template-columns: repeat( 6, auto);
+}
+.cont_img img{
+   width: 200px;
+   padding-bottom: 15px;
+   border-radius: 3px;
+   position: relative;
+   display: block;
+   z-index: 0;
+  
+}
+.cont_img{
+    position: relative;
+    transition: 1s ;
+    -webkit-transition: 1s ;
+    -moz-transition: 1s ;
+    -ms-transition: 1s ;
+    -o-transition: 1s ;
+}
+.imagenes_dos{
+    color: rgb(255, 255, 255);
+    
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: rgba(142, 142, 142, 0.11);
+    z-index: 1;
+    width: 100%;
+    visibility: hidden;
+    height: 100%;
+}
+
+ 
+
+footer{
+    height: 200px;
+    color: white ; 
+   background-image: url(../img/foot.png);
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+}
+.close_tre{
+    visibility: hidden;
+}

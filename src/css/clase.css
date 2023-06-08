@@ -1,0 +1,21 @@
+.titulo{
+    padding-left: 5%;
+}
+body hr {
+    height: 5px;
+   background-color: rgb(15, 203, 255);
+}
+
+.bod{
+    background: url(https://img.freepik.com/free-vector/colorful-vintage-retro-background_36662-1295.jpg?w=2000);
+}
+.carrusel_element{
+
+    background-color: white;
+    margin-left:   1%;
+    border-radius: 5px;
+}
+.carrusel_element >img{
+    margin: 0 0 ;
+    max-height: 300px;
+}
